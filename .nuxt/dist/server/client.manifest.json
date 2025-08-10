@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/quangvuduong/dev/personal/work-with-AI/node_modules/.pnpm/nuxt@3.18.1_@netlify+blobs@9.1.2_@parcel+watcher@2.5.1_@types+node@24.2.1_@vue+compiler_758d666939c758645fb29cce435a8b66/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/quangvuduong/dev/personal/work-with-AI/node_modules/.pnpm/nuxt@3.18.1_@netlify+blobs@9.1.2_@parcel+watcher@2.5.1_@types+node@24.2.1_@vue+compiler_758d666939c758645fb29cce435a8b66/node_modules/nuxt/dist/app/entry.js"
+  }
+}

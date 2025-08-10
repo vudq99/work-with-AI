@@ -1,0 +1,24 @@
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+  ssr: true,
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/icon',
+    'shadcn-nuxt'
+  ],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+    },
+  },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  },
+  experimental: {
+    payloadExtraction: false
+  }
+})
